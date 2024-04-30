@@ -5,13 +5,13 @@ const Page = () => {
   return (
     <>
 
-      <div className="w-screen h-screen">
+      <div className="w-screen h-1/2 bg-green-tertiary">
         <Home />
 
       </div>
-        <div className="w-screen h-screen absolute bg-green-tertiary ">
-            <Companies/>
-        </div>
+         <div className="w-screen h-screen bg-green-tertiary">
+           <Companies/>
+       </div>
     </>
   );
 };
