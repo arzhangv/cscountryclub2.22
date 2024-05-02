@@ -5,10 +5,6 @@ import { Button } from "@material-tailwind/react";
 import { useNavigate } from 'react-router-dom';
 import Companies from "./Companies";
 const Home = () => {
-  const navigate = useNavigate();
-  const handleNavigate = () =>{
-    navigate('/apply');
-  }
   return (
       <>
           <div className="flex flex-wrap">
