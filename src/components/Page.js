@@ -12,6 +12,9 @@ const Page = () => {
          <div className="w-screen h-screen bg-green-tertiary">
            <Companies/>
        </div>
+        <div className="w-screen h-1/2 bg-green-tertiary">
+
+        </div>
     </>
   );
 };

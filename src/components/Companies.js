@@ -42,31 +42,33 @@ const Companies = () => {
               <div className="relative  text-center text-green-900 text-[66px] font-bold font-['Libre Franklin']">
                   Perks
               </div>
-              <div className="relative  text-center"><span
-                  className="text-black text-[34px] font-semibold font-['Libre Franklin']"> 1.) </span><span
-                  className="text-black text-[34px] font-extralight font-['Libre Franklin']">Get access to fresh and exclusive job postings sourced from the community<br/><br/></span><span
-                  className="text-black text-[34px] font-semibold font-['Libre Franklin']">2.) </span><span
-                  className="text-black text-[34px] font-extralight font-['Libre Franklin']">Engaging in a community of ambitious and knowledgeable tech enthusiasts<br/></span><span
-                  className="text-black text-[34px] font-semibold font-['Libre Franklin']"><br/>3.)</span><span
-                  className="text-black text-[34px] font-extralight font-['Libre Franklin']"> Find out about interview processes in real time and study archived questions for review</span>
+              <div className="relative py-8 text-center"><span
+                  className="text-black text-[30px] font-semibold font-['Libre Franklin']"> 1.) </span><span
+                  className="text-black text-[30px] font-extralight font-['Libre Franklin']">Get access to fresh and exclusive job postings sourced from the community<br/><br/></span><span
+                  className="text-black text-[30px] font-semibold font-['Libre Franklin']">2.) </span><span
+                  className="text-black text-[30px] font-extralight font-['Libre Franklin']">Engaging in a community of ambitious and knowledgeable tech enthusiasts<br/></span><span
+                  className="text-black text-[30px] font-semibold font-['Libre Franklin']"><br/>3.)</span><span
+                  className="text-black text-[30px] font-extralight font-['Libre Franklin']"> Find out about interview processes in real time and study archived questions for review</span>
               </div>
               <div className="relative py-16"></div>
               <div
                   className="relative  text-center text-green-900 text-[66px] font-bold font-['Libre Franklin']">About
               </div>
-              <div className="relative  text-center text-black text-[34px] font-extralight font-['Libre Franklin']">
-                  <h1 className="relative  text-center text-black text-[34px] font-extralight font-['Libre Franklin']">
+              <div className="relative  text-center text-black text-[30px] font-extralight font-['Libre Franklin']">
+                  <h1 className="relative  text-center text-black text-[30px] font-extralight font-['Libre Franklin']">
                       We're a group of software engineers, CS majors and otherwise
                   </h1>
-                  <h1 className="relative  text-center text-black text-[34px] font-extralight font-['Libre Franklin']">
+                  <h1 className="relative  text-center text-black text-[30px] font-extralight font-['Libre Franklin']">
                       tech-enthusiastic individuals with an established community
                   </h1>
-                  <h1 className="relative  text-center text-black text-[34px] font-extralight font-['Libre Franklin']">
+                  <h1 className="relative  text-center text-black text-[30px] font-extralight font-['Libre Franklin']">
                       of like-minded individuals navigating the turbulent post-pandemic
                   </h1>
-                  <h1 className="relative  text-center text-black text-[34px] font-extralight font-['Libre Franklin']">
+                  <h1 className="relative  text-center text-black text-[30px] font-extralight font-['Libre Franklin']">
                       tech market.
                   </h1>
+              </div>
+              <div className="w-screen h-2/3 py-20">
               </div>
           </div>
       </>);
