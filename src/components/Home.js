@@ -25,19 +25,22 @@ const Home = () => {
                   </div>
 
                   <div className="z-10 relative flex flex-col p-4 gap-4">
-                      <h1 className="w-1/2 p-8 text-7xl font-bold text-green-900">CS Country Club</h1>
-                      <p className="w-2/3 px-8 text-[54px] font-extralight text-neutral-700">
+                    <h1 className="w-1/2 p-8 text-7xl font-bold text-green-900">CS Country Club</h1>
+                    <p className="w-2/3 px-8 text-[54px] font-extralight text-neutral-700">
                           An active discord community with members from top companies
-                      </p>
-                      <div className="px-8">
-                      <Button
+                    </p>
+                    <div className="px-8">
+                    <a href="/apply" className="flex items-center justify-center font-sans uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none py-3 px-6 w-[400px] h-[78px] bg-gradient-to-tr shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] rounded-md bg-green-button text-white font-light text-2xl">
+                            Apply
+                    </a>
+                      {/* <Button
                           variant="gradient"
                           className=" rounded-md bg-green-button text-white font-light text-2xl"
                           style={{ width: '400px', height: '78px', left: '58px', top: '415px', paddingLeft:'10px'}}
                           onClick={handleNavigate}
                       >
                           Apply
-                      </Button>
+                      </Button> */}
                       </div>
                       <p className="p-8 text-3xl font-extralight text-black">
                           With a rapidly changing hiring landscape, it's more important than ever that we help each
