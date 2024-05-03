@@ -9,7 +9,7 @@ const Home = () => {
       <>
           <div className="flex flex-wrap">
               <div className="flex relative justify-between p-4">
-                  <div className="w-screen h-full absolute top-0 left-0">
+                  <div className="w-full  sm:h-[400px] lg:h-[719px] absolute top-0 left-0">
                       <img className="w-screen lg:h-[719px]"
                            src={calabasas_country_club}
                            alt={"image"}
@@ -17,19 +17,19 @@ const Home = () => {
                   </div>
                   <div className="z-12 flex absolute top-0 left-0 h-full">
                       <div
-                          className="bg-gradient-botleft-to-topright from-[#C1DDCC] via-[#C1DDCC] via-[#C1DDCC] to-[#C1DDCC]/30 w-screen h-screen"></div>
+                          className="bg-gradient-botleft-to-topright from-[#C1DDCC] via-[#C1DDCC] via-[#C1DDCC] to-[#C1DDCC]/30 w-screen sm:h-[400px] lg:h-[719px]"></div>
                   </div>
 
                   <div className="z-10 relative flex flex-col p-4 gap-4">
-                    <h1 className="w-1/2 p-8 text-7xl font-bold text-green-900">CS Country Club</h1>
-                    <p className="w-2/3 px-8 text-[54px] font-extralight text-neutral-700">
+                    <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-green-900 p-4">CS Country Club</h1>
+                    <p className="text-lg sm:text-lg lg:text-4xl font-extralight text-neutral-700 px-4">
                           An active discord community with members from top companies
                     </p>
-                    <div className="px-8">
-                    <a href="/apply" className="flex items-center justify-center font-sans uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none py-3 px-6 w-[400px] h-[78px] bg-gradient-to-tr shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] rounded-md bg-green-button text-white font-light text-2xl">
+                    <div className="px-4">
+                    <a href="/apply" className="flex items-center justify-center block sm:w-auto sm:h-[36px] bg-green-button text-white font-light text-lg sm:text-xl lg:w-[400px] lg:h-[78px]  rounded-md py-3 px-2 transition-all hover:shadow-lg active:opacity-85">
                             Apply
                     </a>
-                      {/* <Button
+                        {/*<Button
                           variant="gradient"
                           className=" rounded-md bg-green-button text-white font-light text-2xl"
                           style={{ width: '400px', height: '78px', left: '58px', top: '415px', paddingLeft:'10px'}}
@@ -38,7 +38,7 @@ const Home = () => {
                           Apply
                       </Button> */}
                       </div>
-                      <p className="p-8 text-3xl font-extralight text-black">
+                      <p className="sm:text-md lg:text-3xl font-extralight text-neutral-700 p-4">
                           With a rapidly changing hiring landscape, it's more important than ever that we help each
                           other succeed.
                       </p>
