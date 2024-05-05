@@ -14,8 +14,8 @@ import palantir from "../assets/palantir.svg"
 const Companies = () => {
   return (
       <>
-          <div className="bg-green-tertiary">
-              <div className="lg:py-20 sm:py-4 text-center relative  lg:text-[34px] sm:text-[18px] font-normal text-green-900 font-['Libre Franklin'] tracking-[5.44px]">MEMBERS
+          <div className="bg-green-tertiary ">
+              <div className="lg:py-20 sm:py-4 text-center relative  lg:text-[34px] sm:text-[16px] font-normal text-green-900 font-['Libre Franklin'] tracking-[5.44px]">MEMBERS
                   HAVE GOTTEN JOBS AT
               </div>
 
@@ -37,33 +37,33 @@ const Companies = () => {
                   <img className="w-[178px] h-[120px] mix-blend-darken" src={palantir} alt="Palantir"/>
               </div>
 
-              <div className="relative py-16"></div>
-              <div className="relative  text-center text-green-900 text-[66px] font-bold font-['Libre Franklin']">
-                  Perks
+              <div className="relative lg:py-16 sm:py-4 "></div>
+              <div className="text-center text-green-900  font-bold font-['Libre Franklin']">
+                 <h1 className="sm:text[66px] md:text-2xl lg:text-[66px]">Perks </h1>
               </div>
               <div className="relative py-8 text-center"><span
-                  className="text-black text-[30px] font-semibold font-['Libre Franklin']"> 1.) </span><span
-                  className="text-black text-[30px] font-extralight font-['Libre Franklin']">Get access to fresh and exclusive job postings sourced from the community<br/><br/></span><span
-                  className="text-black text-[30px] font-semibold font-['Libre Franklin']">2.) </span><span
-                  className="text-black text-[30px] font-extralight font-['Libre Franklin']">Engaging in a community of ambitious and knowledgeable tech enthusiasts<br/></span><span
-                  className="text-black text-[30px] font-semibold font-['Libre Franklin']"><br/>3.)</span><span
-                  className="text-black text-[30px] font-extralight font-['Libre Franklin']"> Find out about interview processes in real time and study archived questions for review</span>
+                  className="sm:text-md lg:text-[30px] text-black font-semibold font-['Libre Franklin']"> 1.) </span><span
+                  className="sm:text-md lg:text-[30px] text-black  font-extralight font-['Libre Franklin']">Get access to fresh and exclusive job postings sourced from the community<br/><br/></span><span
+                  className="sm:text-md lg:text-[30px] text-black font-semibold font-['Libre Franklin']">2.) </span><span
+                  className="sm:text-md lg:text-[30px] text-black font-extralight font-['Libre Franklin']">Engaging in a community of ambitious and knowledgeable tech enthusiasts<br/></span><span
+                  className="sm:text-md lg:text-[30px] text-black font-semibold font-['Libre Franklin']"><br/>3.)</span><span
+                  className="sm:text-md lg:text-[30px] text-black font-extralight font-['Libre Franklin']"> Find out about interview processes in real time and study archived questions for review</span>
               </div>
-              <div className="relative lg:py-16 sm:py-4"></div>
+              <div className="relative lg:py-16 sm:py-8"></div>
               <div
-                  className="relative  text-center text-green-900 text-[66px] font-bold font-['Libre Franklin']">About
+                  className="relative sm:text-2xl md:text-2xl lg:text-[30px]   text-center text-green-900 font-bold font-['Libre Franklin']">About
               </div>
-              <div className="relative  text-center text-black text-[30px] font-extralight font-['Libre Franklin']">
-                  <h1 className="relative  text-center text-black text-[30px] font-extralight font-['Libre Franklin']">
+              <div className="relative  text-center text-black sm:text-2xl md:text-2xl lg:text-[30px]  font-extralight font-['Libre Franklin']">
+                  <h1 className="relative  text-center text-black sm:text-2xl md:text-2xl lg:text-[30px]  font-extralight font-['Libre Franklin']">
                       We're a group of software engineers, CS majors and otherwise
                   </h1>
-                  <h1 className="relative  text-center text-black text-[30px] font-extralight font-['Libre Franklin']">
+                  <h1 className="relative  text-center text-black sm:text-2xl md:text-2xl lg:text-[30px]  font-extralight font-['Libre Franklin']">
                       tech-enthusiastic individuals with an established community
                   </h1>
-                  <h1 className="relative  text-center text-black text-[30px] font-extralight font-['Libre Franklin']">
+                  <h1 className="relative  text-center text-black sm:text-2xl md:text-2xl lg:text-[30px]  font-extralight font-['Libre Franklin']">
                       of like-minded individuals navigating the turbulent post-pandemic
                   </h1>
-                  <h1 className="relative  text-center text-black text-[30px] font-extralight font-['Libre Franklin']">
+                  <h1 className="relative  text-center text-black sm:text-2xl md:text-2xl lg:text-[30px]  font-extralight font-['Libre Franklin']">
                       tech market.
                   </h1>
               </div>
