@@ -10,7 +10,7 @@ const Home = () => {
           <div className="flex flex-wrap">
               <div className="flex relative justify-between p-4  sm:h-[400px] sm:w-screen lg:w-screen lg:h-[400px]">
                   <div className="absolute top-0 left-0 w-full h-full  ">
-                      <img className="w-screen lg:h-[719px] object-cover"
+                      <img className="w-screen md:h-[400px] lg:h-[719px] object-cover"
                            src={calabasas_country_club}
                            alt={"image"}
                       />

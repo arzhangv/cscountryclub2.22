@@ -51,19 +51,19 @@ const Companies = () => {
               </div>
               <div className="relative lg:py-16 sm:py-8"></div>
               <div
-                  className="relative sm:text-2xl md:text-2xl lg:text-[30px]   text-center text-green-900 font-bold font-['Libre Franklin']">About
+                  className="relative py-4 md:text-2xl lg:text-[66px] text-center text-green-900 font-bold font-['Libre Franklin']">About
               </div>
-              <div className="relative  text-center text-black sm:text-2xl md:text-2xl lg:text-[30px]  font-extralight font-['Libre Franklin']">
-                  <h1 className="relative  text-center text-black sm:text-2xl md:text-2xl lg:text-[30px]  font-extralight font-['Libre Franklin']">
+              <div className="mx-4 relative  text-center text-black sm:text-2xl md:text-2xl lg:text-[30px]  font-extralight font-['Libre Franklin']">
+                  <h1 className="relative py-2 text-center text-black sm:text-2xl md:text-2xl lg:text-[30px]  font-extralight font-['Libre Franklin']">
                       We're a group of software engineers, CS majors and otherwise
                   </h1>
-                  <h1 className="relative  text-center text-black sm:text-2xl md:text-2xl lg:text-[30px]  font-extralight font-['Libre Franklin']">
+                  <h1 className="sm:mx-4 py-2 relative  text-center text-black sm:text-2xl md:text-2xl lg:text-[30px]  font-extralight font-['Libre Franklin']">
                       tech-enthusiastic individuals with an established community
                   </h1>
-                  <h1 className="relative  text-center text-black sm:text-2xl md:text-2xl lg:text-[30px]  font-extralight font-['Libre Franklin']">
+                  <h1 className="sm:mx-4 py-2  text-center text-black sm:text-2xl md:text-2xl lg:text-[30px]  font-extralight font-['Libre Franklin']">
                       of like-minded individuals navigating the turbulent post-pandemic
                   </h1>
-                  <h1 className="relative  text-center text-black sm:text-2xl md:text-2xl lg:text-[30px]  font-extralight font-['Libre Franklin']">
+                  <h1 className="sm:mx-4 relative  text-center text-black sm:text-2xl md:text-2xl lg:text-[30px]  font-extralight font-['Libre Franklin']">
                       tech market.
                   </h1>
               </div>
